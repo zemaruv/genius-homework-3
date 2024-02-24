@@ -1,0 +1,73 @@
+
+.backdrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.backdrop.is-hidden{
+    /*display: none;*/ /*Якщо не треба модальне вікно анімувати*/
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+ 
+.modal{
+    position: relative;
+    max-width: 723px;
+    width: 100%;
+    max-height: 681px;
+    height: 100%;
+    background: var(--color-primary-dark);
+    border-radius: 48px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.title_modal{
+    font-size: 64px;
+    color: var(--color-primary-light);
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.form_modal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.form_input_modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 310px;
+    height: 52px;
+    border-radius: 32px;
+    border: 2px solid #747272;
+    background-color: transparent;
+    margin: 16px;
+    color: var(--color-primary-light);
+    padding-left: 32px;
+}
+
+.parag_form_modal{
+    color: var(--color-primary-light);
+    font-size: 22px;
+}
+
+.info_form_modal{
+    color: #747272;
+    text-align: center;
+    font-size: 12px;
+}

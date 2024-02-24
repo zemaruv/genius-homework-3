@@ -1,0 +1,22 @@
+.top_content{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 120px;
+    margin-bottom: 169px;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+
+h1{
+    color:var(--color-brand-light);
+    font-size: 140px;
+    font-family: 'Play', sans-serif;
+    margin: 0 0 40px 0;
+}
+
+.first_header_parag{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

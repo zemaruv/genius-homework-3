@@ -1,0 +1,87 @@
+
+.section_about{
+    display: flex;
+    gap: 140px;
+}
+
+.about_title{
+    text-align: start;
+}
+
+.container_about{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+    
+.text_about{
+    max-width: 660px;
+    margin: 0px;
+    line-height: 38px;
+    font-size: 22px;
+}
+
+.images_about_section {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+}
+
+.second_images_about_section{
+    margin-left: 176px;
+    margin-top: 43px;
+}
+
+.icon_Star_1{
+    position: absolute;
+    top: 40%;
+    left: 95%;
+    width: 16px;
+    height: 16px;
+    transform: rotate(-22.905deg);
+    flex-shrink: 0;
+    fill: var(#747272);
+    padding-bottom: 50;
+}
+
+.icon_Star_2{
+    position: absolute;
+    top: 5%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+    transform: rotate(30deg);
+    flex-shrink: 0;  
+    fill: var(--color-brand-light);   
+}
+
+.icon_Star_3{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 64px;
+    height: 64px;
+    transform: rotate(-30deg);
+    flex-shrink: 0;
+    fill: var(--color-brand);
+}
+
+.icon_Star_1,.icon_Star_2,.icon_Star_3{
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: spin 3s linear infinite paused; /* Здесь мы используем paused, чтобы начать анимацию при определенном условии */
+}
+
+@keyframes spin {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  .icon_Star_1:hover,
+  .icon_Star_2:hover,
+  .icon_Star_3:hover {
+    animation-play-state: running; /* Анимация запускается при наведении */
+}

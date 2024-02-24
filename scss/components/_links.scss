@@ -1,0 +1,19 @@
+.link_nav {
+    color:var(--color-brand);
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.link_nav:hover {
+    color: var(--color-brand-light);
+}
+
+.link_nav_footer {
+    color:var(--color-primary-light);
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.link_nav_footer:hover {
+    color:var(--color-brand-light)
+}

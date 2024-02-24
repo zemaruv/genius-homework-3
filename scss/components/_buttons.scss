@@ -1,0 +1,86 @@
+
+.button_top {
+    color:var(--color-primary-light);
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 32px;
+    cursor: pointer;
+    width: 219px;
+    height: 53px;
+    padding: 16px, 32px, 16px, 32px;
+    margin-bottom: 14px;
+    font-size: 18px ;
+    transition-duration: 0.2s;
+}
+
+.button_top:hover {
+    color:var(--color-primary-dark);
+    background-color: transparent;
+}
+
+
+.button_form_contacts{
+    
+    color:var(--color-primary-light);
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 32px;
+    cursor: pointer;
+    width: 280px;
+    height: 53px;
+    padding: 16px, 32px, 16px, 32px;
+    margin-bottom: 14px;
+    margin-left: 30px;
+    font-size: 18px ;
+    transition-duration: 0.2s;
+    text-align: center;
+}
+
+.button_form_contacts:hover {
+    color:var(--color-primary-light);
+    background-color: transparent;
+}
+
+.modal_btn_close{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.carousel_button{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    align-self: center;  
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.carousel_button:hover{
+    box-shadow: 0 0 10px #2B7FFF;;
+}
+
+
+.button_form_modal{
+    color:var(--color-primary-light);
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 32px;
+    cursor: pointer;
+    width: 280px;
+    height: 53px;
+    padding: 16px, 32px, 16px, 32px;
+    margin-left: 30px;
+    font-size: 18px ;
+    transition-duration: 0.2s;
+    text-align: center;
+}
+
+.button_form_modal:hover {
+    color:var(--color-primary-light);
+    background-color: transparent;
+}

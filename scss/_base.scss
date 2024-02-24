@@ -1,0 +1,40 @@
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    color: #011C44;
+}
+
+a{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
